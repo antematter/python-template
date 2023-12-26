@@ -1,5 +1,5 @@
 """Stuff 'n' things."""
-"""Dummy docstring."""
 
-def main():
-    print('Hello, world!')
+def main() -> None:
+    """Logs a greeting console."""
+    print("Hello, world!")
