@@ -67,7 +67,10 @@ ruff = '^0.1.8'
 optional = true
 
 [tool.poetry.scripts]
-driver = "src.project_name.main:main"
+driver = "src.project_name.__init__:main"
+
+[tool.ruff.lint]
+ignore = ['T201','D401']
 
 [tool.poetry.group.tests.dependencies]
 pytest = '^7.4.3'
