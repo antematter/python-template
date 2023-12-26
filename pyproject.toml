@@ -13,7 +13,7 @@ omit = [
 
 
 [tool.poetry]
-name = 'project-name'
+name = 'project_name'
 version = '0.1.0'
 description = "A template Poetry project structure."
 
@@ -29,8 +29,8 @@ include = ['LICENSE', 'py.typed',]
 license = 'Apache-2.0'
 readme = 'README.md'
 
-repository = 'https://github.com/Diapolo10/project-name'
-documentation = 'https://github.com/Diapolo10/project-name/tree/main/docs'
+repository = 'https://github.com/Diapolo10/project_name'
+documentation = 'https://github.com/Diapolo10/project_name/tree/main/docs'
 
 keywords = [
     'python3',
