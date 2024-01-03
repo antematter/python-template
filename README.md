@@ -10,7 +10,7 @@
 3. Run `poetry update`. This will setup the poetry project for on your machine.
 4. Run `poetry run pre-commit install` in order to initialize `pre-commit`.
 5. Run `poetry run pre-commit run` in order to verify if`pre-commit` is working fine.
-6. Run `Make lint`. This will ensure the linters are configured properly.
+6. Run `make lint`. This will ensure the linters are configured properly.
 7. Update this `README.md` with your project details.
 
 
